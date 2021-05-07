@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.container{
+    height: 100%;
+    color: white;
+    font-family: 'Roboto', sans-serif;  
+    .carousel{
+      height: 600px;
+      .carousel-inner{
+          .item{
+              height: 100%;
+              img{
+                  height: 600px;
+                  width: 100%;
+                  background-size: cover;
+              }
+          }
+      }
+    }
+  }
